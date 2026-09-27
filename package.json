@@ -1,0 +1,35 @@
+{
+  "name": "polyedge-stream-benchmark",
+  "version": "1.0.0",
+  "description": "Latency benchmark suite for PolyEdge (https://polyedge.dev) Polymarket trade streaming, testing speed against on-chain block time, Polymarket RTDS, and PolyNode.",
+  "main": "bin/cli.js",
+  "bin": {
+    "polyedge-stream-benchmark": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node bin/cli.js --help"
+  },
+  "keywords": [
+    "polyedge",
+    "polymarket",
+    "rtds",
+    "polynode",
+    "mempool",
+    "trade-streaming",
+    "real-time",
+    "on-chain-analytics",
+    "copy-trading",
+    "prediction-markets",
+    "pre-block",
+    "smart-money",
+    "smart-traders",
+    "latency"
+  ],
+  "author": "PolyEdge Labs (polyedge.dev)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
